@@ -1,0 +1,6 @@
+.beach { 
+    height: 10vh;
+    width:100%;
+    background: linear-gradient(#ffe46e, #ffee90);
+    background-size: cover;
+  }

@@ -1,0 +1,32 @@
+html, body { height: 100%; }
+body {
+  background:black
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  background: green;
+}
+
+.outer {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.inner {
+  display: table-cell;
+  vertical-align: top;
+  text-align: center;
+}
+
+.centered {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 0em;
+  background: orange;
+  color: white;
+}
