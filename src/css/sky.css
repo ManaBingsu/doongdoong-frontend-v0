@@ -1,16 +1,19 @@
-.sky { 
-    height: 15vmin;
+#sky { 
+    height: 12vw;
     width:100%;
+    min-height: 100px;
     display: inline-block;
     margin-top: 0px;
     background: linear-gradient(#6eb2ff, #daebff);
     background-size: cover;
-  }
+}
 
-  .sun {
-      width: 10vw;
-      height: 10vw;
+.sun {
+      width: 8vw;
+      height: 8vw;
+      min-width: 70px;
+      min-height: 70px;
       position: relative;
       left : 0vw;
       top : 2vw;
-  }
+}

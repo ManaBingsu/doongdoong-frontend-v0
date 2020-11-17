@@ -1,6 +1,16 @@
-.beach { 
-    height: 10vh;
+#beach { 
+    position: relative;
+    height: 110vw;
     width:100%;
+    min-height: 500px;
+    max-height: 600px;
     background: linear-gradient(#ffe46e, #ffee90);
     background-size: cover;
+  }
+
+  .bottle {
+    height : 10vw;
+    width : 10vw;;
+    min-width: 70px;
+    min-height: 70px;
   }

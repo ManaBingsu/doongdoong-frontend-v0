@@ -1,6 +1,7 @@
-.ocean { 
-  height: 10vh;
+#ocean { 
+  height: 10vw;
   width:100%;
+  min-height: 100px;
   background: #4888ff;
 }
 /*
