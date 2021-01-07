@@ -1,11 +1,18 @@
-#beach { 
+  #beachContainer { 
     position: relative;
-    height: 110vw;
-    width:100%;
-    min-height: 500px;
-    max-height: 600px;
+    height: 100%;
+    width:  100%;
+    display: inline-block;
     background: linear-gradient(#ffe46e, #ffee90);
     background-size: cover;
+  }
+
+  #beach { 
+    position: relative;
+
+    height: 80%;
+    width:  80%;
+    margin: 20% auto;
   }
 
   .bottle {
